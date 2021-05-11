@@ -21,7 +21,7 @@ export const initialData = [
     perPersonPrice: "(+£31.62pp per night)",
     buttonText: "Select",
     moreDetailsText: "More details",
-    moreDetailsTitle:"Half Board"
+    moreDetailsTitle: "Half Board",
   },
   {
     id: "ai",
@@ -38,12 +38,12 @@ export const initialData = [
     ],
     description:
       "Buffet breakfast and dinner at the Food Market. A la carte lunch, salad bar and soup at the themed restaurant. Option to have one dinner for every four night's stay at The Roast restaurant - starters and Desserts are buffet style, while the main is a set menu with a few options. You'll need to reserve a table a day in advance to eat here, and it depends on availability. Drinks within the All Inclusive package are served between 10.30am and 11pm. Selected local-brand alcohol, soft drinks, tea and coffee. Premium drinks. Snacks at set times.",
-      selected: false,
-      includedText: "Selected",
-      totalPrice: "+£442.68",
-      perPersonPrice: "(+£31.62pp per night)",
-      buttonText: "Select",
-      moreDetailsText: "More details",
-      moreDetailsTitle:"All Inclusive"
+    selected: false,
+    includedText: "Selected",
+    totalPrice: "+£442.68",
+    perPersonPrice: "(+£31.62pp per night)",
+    buttonText: "Select",
+    moreDetailsText: "More details",
+    moreDetailsTitle: "All Inclusive",
   },
 ];

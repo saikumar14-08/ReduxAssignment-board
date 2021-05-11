@@ -109,4 +109,4 @@ export const BoardView = ({ boardBasis, boardBasisSelected }) => (
       ))}
     </div>
   </div>
-);
+)

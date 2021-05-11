@@ -1,12 +1,12 @@
-h2{
-  margin:1rem;
+h2 {
+  margin: 1rem;
   font-family: sans-serif;
   font-size: 22px;
   font-weight: 500;
 }
-#border{
+#border {
   border: 1px solid #70cbf4;
-  display:flex;
+  display: flex;
   margin: 1rem;
   padding: 1rem;
   justify-content: space-between;
@@ -22,117 +22,115 @@ button {
   width: 150px;
   height: 40px;
 }
-#pricePanel{
+#pricePanel {
   display: flex;
 }
-#price{
+#price {
   padding: 0.5rem;
   float: right;
 }
-#boardDesciption{
+#boardDesciption {
   line-height: 2;
 }
 button:hover {
   background-color: #3db4f0;
 }
-#yes{
-  fill:#add700;;
+#yes {
+  fill: #add700;
   padding-right: 0.5rem;
 }
-#no{
-  fill:#dcdcdc;
+#no {
+  fill: #dcdcdc;
   padding-right: 0.5rem;
 }
 
-#showText{
-  color:#70cbf4;
+#showText {
+  color: #70cbf4;
   cursor: pointer;
 }
-#boardList{
+#boardList {
   display: inline;
   border-right: 1px solid #dcdcdc;
   padding: 0 0.5rem;
 }
-#boardDetails{
+#boardDetails {
   line-height: 2;
   font-size: 1rem;
   margin-top: 0.5rem;
 }
-#moreDetailsText{
+#moreDetailsText {
   display: none;
 }
 
-@media(max-width : 959px){
-  button{
+@media (max-width: 959px) {
+  button {
     margin-top: 0.5rem;
   }
-  #pricePanel{
+  #pricePanel {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: flex-end;
     width: 45%;
   }
 }
-@media(max-width : 579px){
-  #boardText{
+@media (max-width: 579px) {
+  #boardText {
     display: none;
   }
- #border{
-   display: block;
- }
- #price{
-   padding-top: 1rem;
-   display: flex;
-   flex-direction: column;
- }
- #moreDetailsText{
-   display: inline;
-   color:#70cbf4
- }
- #boardList{
-   padding: 0.5rem;
- }
- #boardDescription{
-   padding: 0.5rem;
-   line-height: 1.5;
- }
- #pricePanel{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 100%
- }
- #mainPrice{
-   width:100%
- } 
- #moreDetails{
-   display: inline;
-   color:#70cbf4;
-   cursor: pointer;
- }
- #showText{
-   display: none;
- }
- #moreText{
-  z-index: 1;
-  position: relative;
- }
- #moreDetailsPopUp{
-  background-color: aliceblue;
-  z-index: 2;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding-bottom: 95%;
-  display: flex;
-  flex-direction: column;
- }
-
- .close{
-  padding:0.5rem;
+  #border {
+    display: block;
+  }
+  #price {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #moreDetailsText {
+    display: inline;
+    color: #70cbf4;
+  }
+  #boardList {
+    padding: 0.5rem;
+  }
+  #boardDescription {
+    padding: 0.5rem;
+    line-height: 1.5;
+  }
+  #pricePanel {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+  #mainPrice {
+    width: 100%;
+  }
+  #moreDetails {
+    display: inline;
+    color: #70cbf4;
+    cursor: pointer;
+  }
+  #showText {
+    display: none;
+  }
+  #moreText {
+    z-index: 1;
+    position: relative;
+  }
+  #moreDetailsPopUp {
+    background-color: aliceblue;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .close {
+    padding: 0.5rem;
     display: flex;
     justify-content: space-between;
     background-color: #70cbf4;
- }
- 
+  }
 }
