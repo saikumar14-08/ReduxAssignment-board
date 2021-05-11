@@ -34,18 +34,12 @@ const MoreDetailsSection = ({ boardData }) => {
   return (
     <div>
       {moreDetails ? (
-        <div id="text01">
-          <div id="close">
+        <div id="moreDetailsPopUp">
+          <div className="close">
             <span>
               <strong>{boardData.moreDetailsTitle}</strong>
             </span>
-            <span
-              onClick={() => 
-                setMoreDetails(!moreDetails)
-              }
-            >
-              &times;
-            </span>
+            <span onClick={() => setMoreDetails(!moreDetails)}>&times;</span>
           </div>
           {boardData.features.map((item) => (
             <div id="boardList">

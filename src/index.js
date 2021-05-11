@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import { store } from './app/store';
+import { store } from './Redux/Store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
-
+import { BoardBasisContainer } from './View/Container'
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <BoardBasisContainer/>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

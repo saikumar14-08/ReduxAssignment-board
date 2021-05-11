@@ -1,17 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 h2{
   margin:1rem;
   font-family: sans-serif;
@@ -131,7 +117,7 @@ button:hover {
   z-index: 1;
   position: relative;
  }
- #text01{
+ #moreDetailsPopUp{
   background-color: aliceblue;
   z-index: 2;
   position: absolute;
@@ -142,10 +128,11 @@ button:hover {
   flex-direction: column;
  }
 
- #close{
+ .close{
   padding:0.5rem;
     display: flex;
     justify-content: space-between;
     background-color: #70cbf4;
  }
+ 
 }
